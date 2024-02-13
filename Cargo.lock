@@ -240,7 +240,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a54b5297861c651551676e8c43df805dad175cc33bc97dbd992edbbb85dcbcdf"
 
 [[package]]
-name = "icp_rust_boilerplate_backend"
+name = "icp_rust_book_backend"
 version = "0.1.0"
 dependencies = [
  "candid",

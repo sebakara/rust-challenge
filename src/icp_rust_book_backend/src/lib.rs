@@ -20,6 +20,7 @@ struct Book {
     created_at: u64,
     updated_at: Option<u64>
 }
+
 // a trait that must be implemented for a struct that is stored in a stable struct
 
 impl Storable for Book {
