@@ -14,7 +14,7 @@ type IdCell = Cell<u64, Memory>;
 struct Book {
     id: u64,
     title: String,
-    auther: String,
+    author: String,
     summary: String,
     store_name: String,
     created_at: u64,
@@ -115,7 +115,7 @@ fn update_book(id: u64, payload: BookPayload) -> Result<Book, Error> {
         }
         None => Err(Error::NotFound {
             msg: format!(
-                "couldn't update a book with id={}. message not found",
+                "couldn't update a book with id={}. Book not found",
                 id
             ),
         }),
